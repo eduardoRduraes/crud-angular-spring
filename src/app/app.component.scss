@@ -1,0 +1,13 @@
+
+@mixin div-base(){
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  max-width: 98%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.minha-div {
+  @include div-base();
+}
