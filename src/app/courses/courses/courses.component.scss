@@ -1,0 +1,17 @@
+table{
+  overflow: auto;
+  max-height: 600px;
+}
+
+.card {
+  border-bottom: azure;
+}
+
+
+.loading-spinner{
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0,0,0,0.15);
+}
